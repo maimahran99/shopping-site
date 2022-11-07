@@ -49,13 +49,13 @@ const Cart = () => {
                   className="btn btn-outline-dark me-4"
                   onClick={() => handleDel(product)}
                 >
-                  <i className="fa fa-minus"></i>
+                  <i class="bi bi-dash-square-dotted"></i>
                 </button>
                 <button
                   className="btn btn-outline-dark"
                   onClick={() => handleAdd(product)}
                 >
-                  <i className="fa fa-plus"></i>
+                  <i class="bi bi-plus-square-dotted"></i>
                 </button>
               </div>
             </div>
